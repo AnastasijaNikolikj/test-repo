@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap</title>
+    <script src="https://kit.fontawesome.com/8749853b69.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9c24f88aa8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@500&family=BIZ+UDPMincho&family=Grape+Nuts&family=IBM+Plex+Mono:wght@700&family=Kanit:ital,wght@0,600;1,200&family=Lato:ital,wght@1,300&family=League+Gothic&family=Macondo&family=Montserrat:wght@500;600;700;800&family=Noto+Sans:ital@1&family=Open+Sans&family=Oswald:wght@500&family=PT+Sans+Narrow:wght@400;700&family=Permanent+Marker&family=Poppins:wght@100&family=Prompt:ital@1&family=Raleway:ital@1&family=Roboto:wght@400;500&family=Shadows+Into+Light&family=Source+Code+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="home"></div>
+    <div class="top-navbar pt-3 fixed-top">
+            <p class="float-left ml-5"><img src="pictures/icons/mobile-navbar.svg" class="ml-3"> + 389 71 214 849</p>
+            <p class="float-left ml-5"><img src="pictures/icons/location navbar web.svg" class="ml-5"> Rajko Zinzifov br.20 1000 Skopje, Republic of Macedonia</p>
+    </div>
+<nav class="navbar navbar-expand-md fixed-top col bg-dark">
+    <a class="navbar-brand logo ml-5" href="#">
+        <img src="pictures/logos/Creative hub navbar web.png" class="navbar-brand logo desktop-logo">
+    </a>
+    <a href="navbar-brand logo" href="#">
+        <img src="pictures/logos/CreativeHub_Amblem logo 1.svg" class="navbar-brand logo mobile-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <span><img src="pictures/icons/Hamburger.svg"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item active">
+      <a class="nav-link text-light" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#speakers">Speakers</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#schedule">Schedule</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#venue">Venue</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-light" href="#gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="#faq">FAQ</a>
+      </li>
+    <li class="nav-item">
+      <a class="nav-link text-light" href="#contact">Contact</a>
+    </li>
+  </ul>
+</div>
+<a href="#buy-tickets"><button class="btn">Buy Ticket</button></a>
+</nav>
+<div class="container-fluid">
+    <div class="row hero">
+        <div class="col-md-6 offset-md-3 col-8 offset-2 text-center text-light">
+            <h1>Lorem Ipsum dolor sit amet, consectetur <span>adipiscing elit.</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae venenatis pertium malesuada commodo, ut. Vel gravida perus leo.</p>
+        </div>
+        <div class="col-md-12 text-center text-light buttons">
+            <button>About Event</button>
+            <i class="fa-solid fa-play fa-2x"></i>
+        </div>
+    </div>
+    <div class="row pt-5 pb-5 text-light about">
+        <div class="col-md-4 offset-md-1">
+            <h2>About Events</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat morbi ac suspendisse integer eget id. Penatibus in enim aenean proin et sed sit sodales. Sollicitudin natoque et consectetur commodo elementum amet ante urna. Nibh distumst pulvinar dolor cursus.</p>
+        </div>
+        <div class="col-md-3">
+            <h2>Where:</h2>
+            <p>Rajko Zinzifov br.20 1000 Skopje, North Macedonia</p>
+        </div>
+        <div class="col-md-3">
+            <h2>When:</h2>
+            <p>Monday to Wednesday 10-12 March</p>
+        </div>
+    </div>
+    <div id="speakers"></div>
+    <div class="row speakers">
+        <div class="col-md-6 offset-md-3 text-center mb-5">
+            <h1>Event Speakers</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, voluptate!</p>
+            <span>____________</span>
+        </div>
+        <div class="col-md-4 image1 text-center text-light">
+            <div class="names">
+                <h3>Biljana Vidojev</h3>
+                <p>Senior Product Designer</p>
+                <div class="overlay">
+                    <img src="pictures/icons/LinkedIn.svg">
+                    <img src="pictures/icons/Twitter.svg">
+                    <img src="pictures/icons/Facebook.svg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 image2 text-center text-light">
+            <div class="names">
+                <h3>Dimitar</h3>
+                <p>Senior Product Designer</p>
+                <div class="overlay">
+                    <img src="pictures/icons/LinkedIn.svg">
+                    <img src="pictures/icons/Twitter.svg">
+                    <img src="pictures/icons/Facebook.svg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 image3 text-center text-light">
+            <div class="names">
+                <h3>Miroslav</h3>
+                <p>Senior Product Designer</p>
+                <div class="overlay">
+                    <img src="pictures/icons/LinkedIn.svg">
+                    <img src="pictures/icons/Twitter.svg">
+                    <img src="pictures/icons/Facebook.svg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 image4 text-center text-light">
+            <div class="names">
+                <h3>Ile Petrusev</h3>
+                <p>Senior Product Designer</p>
+                <div class="overlay">
+                    <img src="pictures/icons/LinkedIn.svg">
+                    <img src="pictures/icons/Twitter.svg">
+                    <img src="pictures/icons/Facebook.svg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 image5 text-center text-light">
+            <div class="names">
+                <h3>Filip Dimitrov</h3>
+                <p>Senior Product Designer</p>
+                <div class="overlay">
+                    <img src="pictures/icons/LinkedIn.svg">
+                    <img src="pictures/icons/Twitter.svg">
+                    <img src="pictures/icons/Facebook.svg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 image6 text-center text-light">
+            <div class="names">
+                <h3>Maja</h3>
+                <p>Senior Product Designer</p>
+                <div class="overlay">
+                    <img src="pictures/icons/LinkedIn.svg">
+                    <img src="pictures/icons/Twitter.svg">
+                    <img src="pictures/icons/Facebook.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="schedule"></div>
+    <div class="row schedule">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h1>Event Schedule</h1>
+            <p>Here is our event schedule</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, labore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, assumenda.</p>
+            <span>____________</span>
+        </div>
+        <div class="col-md-10 offset-md-1 d-flex mt-5">
+            <h3>20:30 h</h3>
+            <h3 class="ml-5">Registration</h3>
+        </div>
+        <div class="col-md-10 offset-md-1 mt-3">
+            <div class="media p-3" data-toggle="modal" data-target="#first">
+                <img src="pictures/lectureres/MAJA.jpg" alt="user_image" style="width: 100px; height: 100px;" class="rounded-circle mr-4 align-self-start align-self-center">
+                <div class="media-body">
+                    <h4>Aleksandra Miloseska  <span class="text-secondary font-weight-light">UI/UX Designer</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur ab minima consequatur earum pariatur corrupti quibusdam provident.</p>
+                </div>
+            </div>
+            <div class="modal fade" id="first">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body ml-4">
+                            <img src="pictures/lectureres/MAJA.jpg" alt="user_image" style="width: 200px; height: 200px;" class="rounded-circle mr-4 align-self-start align-self-center mb-4">
+                            <h3>03:30 AM</h3>
+                            <h3>Aleksandra Miloseska</h3>
+                            <p class="text-secondary">UI/UX Designer</p>
+                            <hr>
+                            <h4 class="text-secondary">Agenda</h4>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, repudiandae!</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, porro.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, deleniti. Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 offset-md-1 mt-3">
+            <div class="media p-3" data-toggle="modal" data-target="#second">
+                <img src="pictures/lectureres/MAJA.jpg" alt="user_image" style="width: 100px; height: 100px;" class="rounded-circle mr-4 align-self-start align-self-center">
+                <div class="media-body">
+                    <h4>Aleksandra Miloseska  <span class="text-secondary font-weight-light">UI/UX Designer</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur ab minima consequatur earum pariatur corrupti quibusdam provident.</p>
+                </div>
+            </div>
+            <div class="modal fade" id="second">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body ml-4">
+                            <img src="pictures/lectureres/MAJA.jpg" alt="user_image" style="width: 200px; height: 200px;" class="rounded-circle mr-4 align-self-start align-self-center mb-4">
+                            <h3>03:30 AM</h3>
+                            <h3>Aleksandra Miloseska</h3>
+                            <p class="text-secondary">UI/UX Designer</p>
+                            <hr>
+                            <h4 class="text-secondary">Agenda</h4>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, repudiandae!</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, porro.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, deleniti. Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 offset-md-1 mt-3">
+            <div class="media p-3" data-toggle="modal" data-target="#third">
+                <img src="pictures/lectureres/MAJA.jpg" alt="user_image" style="width: 100px; height: 100px;" class="rounded-circle mr-4 align-self-start align-self-center">
+                <div class="media-body">
+                    <h4>Aleksandra Miloseska  <span class="text-secondary font-weight-light">UI/UX Designer</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur ab minima consequatur earum pariatur corrupti quibusdam provident.</p>
+                </div>
+            </div>
+            <div class="modal fade" id="third">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body ml-4">
+                            <img src="pictures/lectureres/MAJA.jpg" alt="user_image" style="width: 200px; height: 200px;" class="rounded-circle mr-4 align-self-start align-self-center mb-4">
+                            <h3>03:30 AM</h3>
+                            <h3>Aleksandra Miloseska</h3>
+                            <p class="text-secondary">UI/UX Designer</p>
+                            <hr>
+                            <h4 class="text-secondary">Agenda</h4>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, repudiandae!</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, porro.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, deleniti. Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 offset-md-1 mt-3">
+            <div class="media p-3" data-toggle="modal" data-target="#fourth">
+                <img src="pictures/lectureres/MAJA.jpg" alt="user_image" style="width: 100px; height: 100px;" class="rounded-circle mr-4 align-self-start align-self-center">
+                <div class="media-body">
+                    <h4>Aleksandra Miloseska  <span class="text-secondary font-weight-light">UI/UX Designer</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur ab minima consequatur earum pariatur corrupti quibusdam provident.</p>
+                </div>
+            </div>
+            <div class="modal fade" id="fourth">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body ml-4">
+                            <img src="pictures/lectureres/MAJA.jpg" alt="user_image" style="width: 200px; height: 200px;" class="rounded-circle mr-4 align-self-start align-self-center mb-4">
+                            <h3>03:30 AM</h3>
+                            <h3>Aleksandra Miloseska</h3>
+                            <p class="text-secondary">UI/UX Designer</p>
+                            <hr>
+                            <h4 class="text-secondary">Agenda</h4>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, repudiandae!</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, porro.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, deleniti. Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 offset-md-1 mt-3">
+            <div class="media p-3" data-toggle="modal" data-target="#fifth">
+                <img src="pictures/lectureres/MAJA.jpg" alt="user_image" style="width: 100px; height: 100px;" class="rounded-circle mr-4 align-self-start align-self-center">
+                <div class="media-body">
+                    <h4>Aleksandra Miloseska  <span class="text-secondary font-weight-light">UI/UX Designer</span></h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur ab minima consequatur earum pariatur corrupti quibusdam provident.</p>
+                </div>
+            </div>
+            <div class="modal fade" id="fifth">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-body ml-4">
+                            <img src="pictures/lectureres/MAJA.jpg" alt="user_image" style="width: 200px; height: 200px;" class="rounded-circle mr-4 align-self-start align-self-center mb-4">
+                            <h3>03:30 AM</h3>
+                            <h3>Aleksandra Miloseska</h3>
+                            <p class="text-secondary">UI/UX Designer</p>
+                            <hr>
+                            <h4 class="text-secondary">Agenda</h4>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, repudiandae!</li>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, porro.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, deleniti. Lorem ipsum dolor sit amet.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="venue"></div>
+    <div class="row venue">
+        <div class="col-md-12 text-center mb-5">
+            <h1>Event Venue</h1>
+            <p>Lorem ipsum dolor sit amet</p>
+            <span>____________</span>
+        </div> 
+        <div class="col-md-6 map"></div>
+        <div class="col-md-6 information-venue text-light">
+            <h3 class="mt-5 ml-5" style="width: 50%">Rajko Zinzifov br.20 1000 Skopje, North Macedonia</h3>
+            <p class="ml-5 mt-3" style="width: 80%;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse accusantium aliquam assumenda explicabo, ea corporis cupiditate cumque eum aperiam nemo exercitationem dolores placeat minus dolorum, hic sapiente voluptates omnis fugit.</p>
+        </div>
+        <div class="col-md-3 event-one"></div>
+        <div class="col-md-3 event-two"></div>
+        <div class="col-md-3 event-three"></div>
+        <div class="col-md-3 event-four"></div>
+    </div>
+    <div id="gallery"></div>
+    <div class="row gallery">
+        <div class="col-md-12 text-center">
+            <h1>Gallery</h1>
+            <p>From our last event</p>
+            <span>____________</span>
+        </div>
+        <div class="col-md-6 offset-md-3 mt-5">
+            <div id="demo" class="carousel slide" data-ride="carousel"> 
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="pictures/events/trajko-dzikov.jpg" alt="phone image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pictures/events/hr-entry-exit.jpg" alt="phone image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pictures/events/pr-kosta-petrov.jpg" alt="phone image">
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <img src="pictures/icons/Left arrow carousell web.svg" alt="arrow picture">
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <img src="pictures/icons/right arrow carousell web.svg" alt="arrow picture">
+            </a>
+        </div>
+    </div>
+    <div id="sponsors"></div>
+    <div class="row sponsors">
+        <div class="col-md-12 text-center">
+            <h1>Sponsors</h1>
+            <span>____________</span>
+        </div>
+        <div class="col-md-12 mt-5">
+            <img src="pictures/logos/logos by companies.png" class="img-fluid">
+        </div>
+    </div>
+    <div id="faq"></div>
+    <div class="row faq">
+        <div class="col-md-12 text-center">
+            <h1>F.A.Q.</h1>
+            <span>____________</span>
+        </div>
+        <div class="col-md-10 offset-md-1 mt-5">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="card">
+                    <div class="card-header" id="panelsStayOpen-headingOne">
+                        <a class="card-link text-dark" data-toggle="collapse" href="#panelsStayOpen-collapseOne" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, sequi?</a>
+                    </div>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne" >
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, et molestiae. Itaque in rem perferendis nulla doloribus animi excepturi, et iure voluptas. Incidunt, voluptate. Voluptatibus libero quia deserunt error ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="panelsStayOpen-headingTwo">
+                        <a class="card-link text-dark" data-toggle="collapse" href="#panelsStayOpen-collapseTwo" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, sequi?</a>
+                    </div>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, et molestiae. Itaque in rem perferendis nulla doloribus animi excepturi, et iure voluptas. Incidunt, voluptate. Voluptatibus libero quia deserunt error ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="panelsStayOpen-headingThree">
+                        <a class="card-link text-dark" data-toggle="collapse" href="#panelsStayOpen-collapseThree" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, sequi?</a>
+                    </div>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, et molestiae. Itaque in rem perferendis nulla doloribus animi excepturi, et iure voluptas. Incidunt, voluptate. Voluptatibus libero quia deserunt error ipsam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="panelsStayOpen-headingFour">
+                        <a class="card-link text-dark" data-toggle="collapse" href="#panelsStayOpen-collapseFour" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, sequi?</a>
+                    </div>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-collapseFour" >
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, et molestiae. Itaque in rem perferendis nulla doloribus animi excepturi, et iure voluptas. Incidunt, voluptate. Voluptatibus libero quia deserunt error ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="panelsStayOpen-headingFive">
+                        <a class="card-link text-dark" data-toggle="collapse" href="#panelsStayOpen-collapseFive" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, sequi?</a>
+                    </div>
+                    <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, et molestiae. Itaque in rem perferendis nulla doloribus animi excepturi, et iure voluptas. Incidunt, voluptate. Voluptatibus libero quia deserunt error ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, minima.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="panelsStayOpen-headingSix">
+                        <a class="card-link text-dark" data-toggle="collapse" href="#panelsStayOpen-collapseSix" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseSix">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, sequi?</a>
+                    </div>
+                    <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, et molestiae. Itaque in rem perferendis nulla doloribus animi excepturi, et iure voluptas. Incidunt, voluptate. Voluptatibus libero quia deserunt error ipsam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="panelsStayOpen-headingSeven">
+                        <a class="card-link text-dark" data-toggle="collapse" href="#panelsStayOpen-collapseSeven" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true" aria-controls="panelsStayOpen-collapseSeven">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, sequi?</a>
+                    </div>
+                    <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
+                        <div class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, et molestiae. Itaque in rem perferendis nulla doloribus animi excepturi, et iure voluptas. Incidunt, voluptate. Voluptatibus libero quia deserunt error ipsam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="newsletter"></div>
+    <div class="row newsletter">
+        <div class="col-md-12 text-center text-light">
+            <h1>Newsletter</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, architecto!</p>
+            <span>____________</span>
+        </div>
+        <div class="col-md-4 offset-md-4 mt-2">
+            <form>
+                <div class="input-group">
+                    <input type="email" name="" placeholder="Enter Your Email" class="form-control" />
+                        <button class="btn">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="buy-tickets"></div>
+    <div class="row tickets">
+        <div class="col-md-12 text-center">
+            <h1>Buy Tickets</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, numquam.</p>
+            <span>____________</span>
+        </div>
+        <div class="col-md-4 mt-5">
+            <div class="card">
+                <h3 class="text-secondary text-center mt-5">Standard Access</h3>
+                <h2 class="text-center mt-4 mb-4">$150</h2>
+                <ul>
+                    <li>Regular Seating</li>
+                    <li>Coffee Break</li>
+                    <li>Custom Badge</li>
+                    <li class="gray">Community Access</li>
+                    <li class="gray">Workshop Access</li>
+                    <li class="gray">After Party</li>
+                </ul>
+                <hr>
+                <button data-toggle="modal" data-target="#button-one">Buy Ticket</button>
+                <div class="modal fade" id="button-one">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <h3 class="modal-tittle mt-3">Buy you ticket</h3>
+                                <form>
+                                    <div class="form-group mt-5">
+                                        <input type="text" name="" class="form-control" placeholder="Your Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" name="" class="form-control" placeholder="Phone number">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="" class="form-control" placeholder="Your Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="" class="form-control" placeholder="Card details">
+                                    </div>
+                                    <button type="submit" class="btn">Buy Ticket</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5">
+            <div class="card">
+                <h3 class="text-secondary text-center mt-5">Standard Access</h3>
+                <h2 class="text-center mt-4 mb-4">$150</h2>
+                <ul>
+                    <li>Regular Seating</li>
+                    <li>Coffee Break</li>
+                    <li>Custom Badge</li>
+                    <li class="gray">Community Access</li>
+                    <li class="gray">Workshop Access</li>
+                    <li class="gray">After Party</li>
+                </ul>
+                <hr>
+                <button data-toggle="modal" data-target="#button-two">Buy Ticket</button>
+                <div class="modal fade" id="button-two">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <h3 class="modal-tittle mt-3">Buy you ticket</h3>
+                                <form>
+                                    <div class="form-group mt-5">
+                                        <input type="text" name="" class="form-control" placeholder="Your Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" name="" class="form-control" placeholder="Phone number">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="" class="form-control" placeholder="Your Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="" class="form-control" placeholder="Card details">
+                                    </div>
+                                    <button type="submit" class="btn">Buy Ticket</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5">
+            <div class="card">
+                <h3 class="text-secondary text-center mt-5">Standard Access</h3>
+                <h2 class="text-center mt-4 mb-4">$150</h2>
+                <ul>
+                    <li>Regular Seating</li>
+                    <li>Coffee Break</li>
+                    <li>Custom Badge</li>
+                    <li class="gray">Community Access</li>
+                    <li class="gray">Workshop Access</li>
+                    <li class="gray">After Party</li>
+                </ul>
+                <hr>
+                <button data-toggle="modal" data-target="#button-three">Buy Ticket</button>
+                <div class="modal fade" id="button-three">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <h3 class="modal-tittle mt-3">Buy you ticket</h3>
+                                <form>
+                                    <div class="form-group mt-5">
+                                        <input type="text" name="" class="form-control" placeholder="Your Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" name="" class="form-control" placeholder="Phone number">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="" class="form-control" placeholder="Your Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="" class="form-control" placeholder="Card details">
+                                    </div>
+                                    <button type="submit" class="btn">Buy Ticket</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact"></div>
+    <div class="row contact">
+        <div class="col-md-12 text-center header">
+            <h1>Contact</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <span>____________</span>
+        </div>
+        <div class="col-md-10 offset-md-1">
+            <div class="row">
+                <div class="col-md-3 offset-md-1 text-center info">
+                    <img src="pictures/icons/Location.svg" class="mb-5">
+                    <h1>Adress</h1>
+                    <p>Rajko Zinzifov br.20 1000 Skopje, North Macedonia</p>
+                </div>
+                <div class="vl"></div>
+                <div class="col-md-4 text-center">
+                    <img src="pictures/icons/phone web.png" class="mb-5">
+                    <h1>Phone Number</h1>
+                    <p>+389 71 214 849</p>
+                </div>
+                <div class="vl"></div>
+                <div class="col-md-3 text-center">
+                    <img src="pictures/icons/mail web.svg" class="mb-5">
+                    <h1>Email</h1>
+                    <p>contact@cretivehub.mk</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="row form">
+            <div class="col-md-10 offset-md-1">
+                <div class="row">
+                    <div class=" col-md-6">
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="col-lg-12 mt-4 col-md-12">
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="Subject">
+                    </div>
+                    <div class="col-md-12 mt-4 ">
+                        <textarea name="" placeholder="Message" class="form-control"></textarea>
+                    </div>
+                    <div class="col-md-12 mt-4">
+                        <button class="btn">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-md-12 text-center icon">
+                <a href="#home">
+                    <img src="pictures/icons/Scroll up web.svg" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-4 ml-5 mt-4">
+                <img src="pictures/logos/Creative hub navbar web.png">
+                <p class="text-light mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur necessitatibus veritatis exercitationem facere, modi minima fuga unde similique architecto perspiciatis, mollitia officia sequi inventore illum dolorem eligendi atque pariatur voluptatum.</p>
+            </div>
+            <div class="col-md-3 ml-5 mt-4">
+                <h3 class="text-light text-uppercase">useful links</h3>
+                <ul class="list-unstyled mt-4">
+                    <li><a class="text-decoration-none text-light" href="#">Home</a></li>
+                    <span>_____________________________</span>
+                    <li><a class="text-decoration-none text-light" href="#">About us</a></li>
+                    <span>_____________________________</span>
+                    <li><a class="text-decoration-none text-light" href="#">Services</a></li>
+                    <span>_____________________________</span>
+                    <li><a class="text-decoration-none text-light" href="#">Terms of service</a></li>
+                    <span>_____________________________</span>
+                    <li><a class="text-decoration-none text-light" href="#">Privacy policy</a></li>
+                </ul>
+            </div> 
+            <div class="col-md-3 ml-5 mt-4">
+                <h3 class="text-light text-uppercase">contact</h3>
+                <ul class="list-unstyled text-light">
+                    <li>Rajko Zinzifov br.20</li>
+                    <li>1000 Skopje</li>
+                    <li>North Macedonia</li>
+                    <li>Phone: +389 71 214 849</li>
+                    <li>Email: contact@cretivehub.com</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="row footer-end">
+            <div class="col-md-12 text-center mt-4">
+                <p>&copy Copyright CretiveHub. All Rights Reserved</p>
+                <p>Designed by CretiveHub</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
